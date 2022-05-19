@@ -1,0 +1,26 @@
+{
+    "name": "alayubi/laravel-tag",
+    "description": "Add tag to your Laravel app",
+    "authors": [
+        {
+            "name": "Shalahuddin Al-Ayubi",
+            "email": "shalahuddin69@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lara\\Tag\\": "src/",
+            "Database\\Factories\\": "database/factories/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lara\\Tag\\TagServiceProvider"
+            ]
+        }
+    }
+}
